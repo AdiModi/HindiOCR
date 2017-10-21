@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HindiOCR v1.2</string>
+    <string name="intention">This App is created by Aditya Modi and Janvi Thanki to contibute to the data set for Hindi Digits/ Alphabets</string>
+    <string name="thanking">We would sincerely like to Thank You to Help us Out</string>
+    <string name="acknowledgement">We would also like to thank Saumya Metha to help us build the Application</string>
+</resources>

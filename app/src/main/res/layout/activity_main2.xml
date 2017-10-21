@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.semsix.android.hindiocr.Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/disp_img"
+            app:srcCompat="@drawable/def_img_view"
+            android:background="@color/text"
+            android:scaleType="fitXY" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/snap_btn"
+            android:background="@drawable/custom_btn"
+            android:layout_below="@+id/disp_img"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/snap"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mail_btn"
+            android:background="@drawable/custom_btn"
+            android:layout_below="@+id/disp_img"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/snap_btn"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/mail"
+            android:scaleType="fitCenter" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/takeNum"
+            android:layout_below="@+id/disp_img"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@+id/snap_btn"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:elevation="1dp"
+            android:minWidth="10dp"
+            android:spinnerMode="dialog" />
+
+        <Button
+            android:text="Need Reference?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ref_btn"
+            android:padding="10dp"
+            android:layout_below="@+id/snap_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_btn"
+            android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
+
+</ScrollView>
